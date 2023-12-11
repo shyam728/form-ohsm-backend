@@ -1,13 +1,29 @@
-﻿# form-ohsm-backend
-
- #Project Overview
-I have Create Form For Invetory and Property for OHSM 
 
 
+```markdown
+# OHSM Form Backend
 
+## Project Overview
+This project involves creating forms for inventory and property management for OHSM (Occupational Health and Safety Management).
 
-# Folder Structure
-/your-project ├── config ├── controllers ├── models ├── routers ├── .gitignore ├── app.js ├── README.md └── ...
+## Folder Structure
+```
+/your-project
+├── config
+├── controllers
+├── models
+├── routers
+├── .gitignore
+├── app.js
+├── README.md
+```
 
-# API Routers
---> /prop/getproperty - GET request to retrieve all property data. --> /prop/createproperty - POST request to create a new property entry. --> /prop/getproperty/:Userid - GET request to retrieve a single property entry by Userid. --> /prop/getproperty/:Userid - PUT request to update a property entry by Userid. --> /prop/getproperty/:Userid - DELETE request to delete a property entry by Userid.
+## API Routers
+- **GET /prop/getproperty:** Retrieve all property data.
+- **POST /prop/createproperty:** Create a new property entry.
+- **GET /prop/getproperty/:Userid:** Retrieve a single property entry by Userid.
+- **PUT /prop/getproperty/:Userid:** Update a property entry by Userid.
+- **DELETE /prop/getproperty/:Userid:** Delete a property entry by Userid.
+```
+
+Feel free to adjust the formatting based on your preferences!
